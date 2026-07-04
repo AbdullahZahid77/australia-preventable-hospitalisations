@@ -171,11 +171,11 @@ The notebook is fully self-contained. All data is loaded from relative paths —
 
 ## Author
 
-**Abdul Ejaz**
+**Abdullah Zahid**
 
-Undergraduate Data Scientist · University of Technology Sydney
+Data Scientist · University of Technology Sydney
 
-[LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/your-username)
+[LinkedIn]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/abdullahzahid77/)) · [GitHub](https://github.com/AbdullahZahid77)
 
 ---
 

@@ -175,7 +175,7 @@ The notebook is fully self-contained. All data is loaded from relative paths —
 
 Data Scientist · University of Technology Sydney
 
-[LinkedIn]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/abdullahzahid77/)) · [GitHub](https://github.com/AbdullahZahid77)
+[LinkedIn](https://www.linkedin.com/in/abdullahzahid77/) · [GitHub](https://github.com/AbdullahZahid77)
 
 ---
 

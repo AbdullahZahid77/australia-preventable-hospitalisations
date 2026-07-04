@@ -1,0 +1,32 @@
+phn_code,phn_name,pph_per_100_residents,health_checks_per_1000_indigenous,remoteness_area,remoteness_pph_avg,seifa_quintile,seifa_pph_avg
+101,Central and Eastern Sydney,1.0,34.4,Major cities,281.1927083333333,SEIFA 5 (Least disadvantaged),238.6290322580645
+102,Northern Sydney,0.4,15.4,Major cities,281.1927083333333,SEIFA 5 (Least disadvantaged),238.6290322580645
+103,Western Sydney,1.6,41.5,Major cities,281.1927083333333,SEIFA 3,298.6190476190476
+104,Nepean Blue Mountains,3.2,29.3,Inner Regional,312.4468085106383,SEIFA 3,298.6190476190476
+105,South Western Sydney,1.8,31.5,Major cities,281.1927083333333,SEIFA 2,324.71875
+106,South Eastern NSW,3.5,32.0,Inner Regional,312.4468085106383,SEIFA 2,324.71875
+107,Western NSW,11.5,45.7,Remote,517.5635359116022,SEIFA 1 (Most disadvantaged),390.3492063492063
+108,Hunter New England and Central Coast,5.1,36.0,Inner Regional,312.4468085106383,SEIFA 2,324.71875
+109,North Coast,5.5,47.9,Inner Regional,312.4468085106383,SEIFA 2,324.71875
+110,Murrumbidgee,5.0,47.0,Inner Regional,312.4468085106383,SEIFA 2,324.71875
+201,North Western Melbourne,0.7,31.3,Major cities,281.1927083333333,SEIFA 4,273.56451612903226
+202,Eastern Melbourne,0.5,28.8,Major cities,281.1927083333333,SEIFA 5 (Least disadvantaged),238.6290322580645
+203,South Eastern Melbourne,0.5,29.1,Major cities,281.1927083333333,SEIFA 4,273.56451612903226
+204,Gippsland,1.9,39.7,Inner Regional,312.4468085106383,SEIFA 2,324.71875
+205,Murray,2.6,38.0,Inner Regional,312.4468085106383,SEIFA 2,324.71875
+206,Western Victoria,1.3,28.6,Inner Regional,312.4468085106383,SEIFA 2,324.71875
+301,Brisbane North,2.1,40.5,Major cities,281.1927083333333,SEIFA 3,298.6190476190476
+302,Brisbane South,2.4,36.8,Major cities,281.1927083333333,SEIFA 3,298.6190476190476
+303,Gold Coast,1.5,28.2,Major cities,281.1927083333333,SEIFA 3,298.6190476190476
+304,Darling Downs and West Moreton,4.6,53.9,Outer Regional,357.76881720430106,SEIFA 2,324.71875
+305,Western Queensland,19.9,77.6,Remote,517.5635359116022,SEIFA 1 (Most disadvantaged),390.3492063492063
+306,"Central Queensland, Wide Bay, Sunshine Coast",3.8,44.5,Outer Regional,357.76881720430106,SEIFA 2,324.71875
+307,Northern Queensland,11.5,53.8,Remote,517.5635359116022,SEIFA 2,324.71875
+401,Adelaide,1.7,39.2,Major cities,281.1927083333333,SEIFA 3,298.6190476190476
+402,Country SA,4.1,66.2,Remote,517.5635359116022,SEIFA 1 (Most disadvantaged),390.3492063492063
+501,Perth North,1.6,36.0,Major cities,281.1927083333333,SEIFA 5 (Least disadvantaged),238.6290322580645
+502,Perth South,2.1,39.3,Major cities,281.1927083333333,SEIFA 3,298.6190476190476
+503,Country WA,10.3,84.0,Remote,517.5635359116022,SEIFA 1 (Most disadvantaged),390.3492063492063
+601,Tasmania,5.1,17.0,Inner Regional,312.4468085106383,SEIFA 2,324.71875
+701,Northern Territory,29.4,93.6,Very Remote,770.4917127071823,SEIFA 1 (Most disadvantaged),390.3492063492063
+801,Australian Capital Territory,1.8,30.3,Major cities,281.1927083333333,SEIFA 5 (Least disadvantaged),238.6290322580645

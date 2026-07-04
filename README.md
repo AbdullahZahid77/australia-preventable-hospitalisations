@@ -6,9 +6,12 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=flat-square&logo=jupyter&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![statsmodels](https://img.shields.io/badge/statsmodels-OLS-4B8BBE?style=flat-square)
+![Streamlit](https://img.shields.io/badge/Streamlit-Live%20App-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 A data-driven investigation into why preventable hospitalisation rates are **up to 29× higher** in remote Australia than in major cities — and which conditions drive the greatest burden for Indigenous Australians.
+
+**[Launch Interactive Dashboard](https://australia-preventable-hospitalisations-abdullah-zahid.streamlit.app/)** — live ML predictions, geographic analysis, and condition explorer, no install required.
 
 ---
 
@@ -66,8 +69,11 @@ This project applies statistical and machine learning methods to AIHW national d
 ```
 australia-preventable-hospitalisations/
 │
-|
-│── australia_pph_analysis.ipynb   # Single consolidated analysis notebook
+├── australia_pph_analysis.ipynb        # Single consolidated analysis notebook
+├── app.py                              # Streamlit interactive dashboard
+├── requirements.txt                    # Python dependencies
+├── .streamlit/
+│   └── config.toml                     # Dashboard theme
 │
 ├── pre-processed-datasets/
 │   ├── A1.csv                          # PHN-level PPH rates and health checks
@@ -75,7 +81,8 @@ australia-preventable-hospitalisations/
 │   └── socio-economic-area.csv         # PPH rates by SEIFA quintile
 │
 ├── processed-datasets/
-│   └── indigenous_pre_data_frame.csv   # Cleaned Indigenous PPH dataset
+│   ├── master_data_frame.csv           # PHN-level merged dataset (31 rows)
+│   └── indigenous_pre_data_frame.csv   # Cleaned Indigenous PPH dataset (576 rows)
 │
 └── README.md
 ```
@@ -125,24 +132,30 @@ Source: [Australian Institute of Health and Welfare — Potentially Preventable 
 
 ## Setup
 
-### Requirements
+### Interactive Dashboard (no install)
 
-```bash
-pip install pandas numpy matplotlib seaborn statsmodels scikit-learn scipy
-```
+The easiest way to explore the project is the live app:
 
-### Run
+**[https://australia-preventable-hospitalisations-abdullah-zahid.streamlit.app/](https://australia-preventable-hospitalisations-abdullah-zahid.streamlit.app/)**
+
+### Run Locally
 
 ```bash
 # Clone the repository
 git clone https://github.com/your-username/indigenous-pph-australia.git
 cd indigenous-pph-australia
 
-# Open the notebook
-jupyter notebook github_submission/australia_pph_analysis.ipynb
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch the dashboard
+streamlit run app.py
+
+# Or open the analysis notebook
+jupyter notebook australia_pph_analysis.ipynb
 ```
 
-The notebook is fully self-contained. All data is loaded from relative paths — no path configuration required.
+The notebook and dashboard both use relative paths — no configuration required after cloning.
 
 ---
 
@@ -151,9 +164,10 @@ The notebook is fully self-contained. All data is loaded from relative paths —
 | Category              | Tools                                                |
 | --------------------- | ---------------------------------------------------- |
 | Data manipulation     | pandas, NumPy                                        |
-| Visualisation         | Matplotlib, Seaborn                                  |
+| Visualisation         | Matplotlib, Seaborn, Plotly                          |
 | Statistical modelling | statsmodels (OLS, VIF)                               |
 | Machine learning      | scikit-learn (RandomForest, GradientBoosting, Ridge) |
+| Dashboard             | Streamlit (deployed on Streamlit Community Cloud)    |
 | Environment           | Python 3.10, Jupyter Notebook                        |
 
 ---
